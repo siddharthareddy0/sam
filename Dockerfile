@@ -10,5 +10,5 @@ COPY app.java .
 # Compile the Java file
 RUN javac app.java
 
-
-CMD ["java", "app"]  # Make sure this matches your class name
+# Specify the command to run the compiled Java program
+CMD ["java", "app"]  # Ensure it matches the class name
